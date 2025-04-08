@@ -82,13 +82,6 @@ To change the response:
 2. Edit `response.json` to change the content type or response file
 3. No server restart is required for changes to take effect
 
-## Error Handling
-
-The server includes basic error handling:
-- Returns 500 status code for internal errors
-- Provides fallback configuration if `response.json` is missing
-- Logs errors to the console
-
 ## License
 
 Apache 2
