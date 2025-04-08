@@ -1,6 +1,6 @@
 API Response Tester
 
-A simple, configurable webhook server that returns static NDJSON responses. This server accepts any URL and returns a configurable response payload in Newline Delimited JSON (NDJSON) format.
+A simple, configurable webhook server that returns static responses. This server accepts any URL and returns a configurable response payload. The default is ndjson.
 
 ## Features
 
@@ -15,7 +15,7 @@ A simple, configurable webhook server that returns static NDJSON responses. This
 1. Clone the repository:
 ```bash
 git clone <repository-url>
-cd discovery-webhook
+cd api-response-tester
 ```
 
 2. Install dependencies:
@@ -40,7 +40,9 @@ This file contains the server configuration:
 - `responseFile`: The file containing the response payload
 
 ### 2. response.txt
-This file contains the actual response payload in NDJSON format. Each line should be a valid JSON object. Example:
+This file contains the actual response payload.
+
+Example:
 ```json
 {"url": "https://example.com/item1", "type": "document", "timestamp": "{{timestamp}}"}
 {"url": "https://example.com/item2", "type": "image", "timestamp": "{{timestamp}}"}
