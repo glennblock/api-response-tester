@@ -1,0 +1,5 @@
+{"url": "https://example.com/item1", "type": "document", "timestamp": "{{timestamp}}"}
+{"url": "https://example.com/item2", "type": "image", "timestamp": "{{timestamp}}"}
+{"url": "https://example.com/item3", "type": "video", "timestamp": "{{timestamp}}"}
+{"url": "https://example.com/item4", "type": "audio", "timestamp": "{{timestamp}}"}
+{"url": "https://example.com/item5", "type": "document", "timestamp": "{{timestamp}}"} 
